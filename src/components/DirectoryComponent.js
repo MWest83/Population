@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
 import MetroInfo from './MetroInfoComponent';
 
 class Directory extends Component {
@@ -14,20 +14,6 @@ class Directory extends Component {
         this.setState({selectedMetro: metro});
     }
 
-    renderSelectedMetro(metro) {
-        if (metro) {
-            return(
-                <Card>
-                    <CardImg top src={metro.image} alt={metro.name} />
-                    <CardBody>
-                        <CardTitle>{metro.name}</CardTitle>
-                        <CardText>{metro.population}</CardText>
-                    </CardBody>
-                </Card>
-            )
-        }
-        return <div />;
-    }
 
     render() {
         const directory = this.props.metroArea.map(metro => {
