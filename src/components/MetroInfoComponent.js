@@ -1,10 +1,23 @@
-import React, {Component} from 'react';
+import React from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle, CardDeck, CardSubtitle } from 'reactstrap';
 import { metroArea } from '../shared/metroArea';
 
-class MetroInfo extends Component {
+
+function RenderMetro({metro}) {
+    return (
+        <div className="col-md-5 m-1">
+            <Card>
+                    <CardImg top src={metro.image} alt={metro.name} />
+                    <CardBody>
+                        <CardTitle>{metro.name}</CardTitle>
+                        <CardText>{metro.population}</CardText>
+                    </CardBody>
+                </Card>
+        </div>
+    );
+}
     
-    renderSuburb(suburbs) {
+    function RenderSuburb({suburbs}) {
         if (suburbs) {
             return (
                 <div className="col-md-5 m-1">
@@ -43,32 +56,19 @@ class MetroInfo extends Component {
         return <div />;
     }
 
- renderMetro(metro) {
-    return (
-        <div className="col-md-5 m-1">
-            <Card>
-                    <CardImg top src={metro.image} alt={metro.name} />
-                    <CardBody>
-                        <CardTitle>{metro.name}</CardTitle>
-                        <CardText>{metro.population}</CardText>
-                    </CardBody>
-                </Card>
-        </div>
-    )
-}
-    render() {
-        if(this.props.metro) {
+    function MetroInfo(props) {
+        if(props.metro) {
         return (
             <div className='container'>
                 <div className='row'>
-                    {this.renderMetro(this.props.metro)}
-                    {this.renderSuburb(this.props.metro.suburbs)}
+                    <RenderMetro metro={props.metro} />
+                    <RenderSuburb suburbs={props.metro.suburbs} />
                 </div>
             </div>
         );
     }
     return <div/>;
     }
-}
+
 
 export default MetroInfo;
