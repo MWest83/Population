@@ -5,7 +5,7 @@ export const metroArea = [
         image: 'assets/images/new-york.jpg',
         population: 19124359,
         cityState: 'New York',
-        suburb: [
+        suburbs: [
                     {
                     id: 0,
                     city: 'Brooklyn',

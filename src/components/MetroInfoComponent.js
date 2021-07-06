@@ -1,22 +1,40 @@
 import React, {Component} from 'react';
-import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody, CardTitle, CardDeck, CardSubtitle } from 'reactstrap';
 import { metroArea } from '../shared/metroArea';
 
 class MetroInfo extends Component {
     
-    renderSuburb(suburb) {
-        if (suburb) {
+    renderSuburb(suburbs) {
+        if (suburbs) {
             return (
                 <div className="col-md-5 m-1">
                 <h4>Different cities of the {metroArea.name}</h4>
-                {suburb.map((suburb)=>{
+                {suburbs.map((suburb)=>{
                     return (
-                        <div key={suburb.id}>
-                            <p>{suburb.city}</p>
-                            <img src={suburb.image} alt={suburb.name} />
-                            <p>{suburb.population}</p>
-                        </div>
-                    )
+                     <CardDeck>
+                            <Card>
+                                <CardImg top width="100%" src={suburb.image} alt={suburb.name} />
+                                <CardBody>
+                                <CardTitle tag="h5">{suburb.city}</CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">{suburb.population}</CardSubtitle>
+                                </CardBody>
+                            </Card>
+                            <Card>
+                                <CardImg top width="100%" src={suburb.image} alt={suburb.name} />
+                                <CardBody>
+                                <CardTitle tag="h5">{suburb.city}</CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">{suburb.population}</CardSubtitle>
+                                </CardBody>
+                            </Card>
+                            <Card>
+                                <CardImg top width="100%" src={suburb.image} alt={suburb.name} />
+                                <CardBody>
+                                <CardTitle tag="h5">{suburb.city}</CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">{suburb.population}</CardSubtitle>
+                                </CardBody>
+                            </Card>
+                     </CardDeck>
+                    );
                 }
             )}
             </div>
@@ -41,9 +59,11 @@ class MetroInfo extends Component {
     render() {
         if(this.props.metro) {
         return (
-            <div className='row'>
-                {this.renderMetro(this.props.metro)}
-                {this.renderSuburb(this.props.metro.suburbs)}
+            <div className='container'>
+                <div className='row'>
+                    {this.renderMetro(this.props.metro)}
+                    {this.renderSuburb(this.props.metro.suburbs)}
+                </div>
             </div>
         );
     }
