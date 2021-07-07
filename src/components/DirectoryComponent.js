@@ -2,9 +2,9 @@ import React from 'react';
 import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
 
 
-function RenderDirectoryItem({metro, onClick}) {
+function RenderDirectoryItem({metro}) {
     return (
-        <Card onClick={() => onClick(metro.id)}>
+        <Card>
             <CardImg width="100%" src={metro.image} alt={metro.name} />
             <CardImgOverlay>
                 <CardTitle>{metro.name}</CardTitle>
@@ -18,7 +18,7 @@ function Directory(props) {
         const directory = props.metroArea.map(metro => {
             return (
                 <div key={metro.id} className="col-md-5 m-1">
-                    <RenderDirectoryItem metro={metro} onClick={props.onClick} />
+                    <RenderDirectoryItem metro={metro} />
                 </div>
             );
         });

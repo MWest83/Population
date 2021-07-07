@@ -3,6 +3,8 @@ import Directory from './DirectoryComponent';
 import MetroInfo from './MetroInfoComponent';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
+import Home from './HomeComponent';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import { metroArea } from '../shared/metroArea';
 
 class Main extends Component {
@@ -10,21 +12,25 @@ class Main extends Component {
         super(props);
         this.state = {
             metroArea: metroArea,
-            selectedMetro: null
         };
     }
 
 
-    onMetroSelect(metroId) {
-        this.setState({selectedMetro: metroId});
-    }
-
   render() {
+
+    const HomePage = () => {
+        return (
+            <Home />
+        );
+    }
       return (
           <div>
               <Header />
-              <Directory metroArea={this.state.metroArea} onClick={(metroId) => this.onMetroSelect(metroId)} />
-              <MetroInfo metro={this.state.metroArea.filter(metro => metro.id === this.state.selectedMetro)[0]} />
+              <Switch>
+                  <Route path='/home' component={HomePage} />
+                <Route exact path='/directory' render={() => <Directory metroArea={this.state.metroArea}/>} />
+                <Redirect to='/home' />
+              </Switch>
               <Footer />
           </div>
       );
