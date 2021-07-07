@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand } from 'reactstrap';
 import Directory from './DirectoryComponent';
 import MetroInfo from './MetroInfoComponent';
+import Header from './HeaderComponent';
+import Footer from './FooterComponent';
 import { metroArea } from '../shared/metroArea';
 
 class Main extends Component {
@@ -21,13 +22,10 @@ class Main extends Component {
   render() {
       return (
           <div>
-              <Navbar dark color="primary">
-              <div className="container">
-                  <NavbarBrand href="/">Victory</NavbarBrand>
-              </div>
-              </Navbar>
+              <Header />
               <Directory metroArea={this.state.metroArea} onClick={(metroId) => this.onMetroSelect(metroId)} />
               <MetroInfo metro={this.state.metroArea.filter(metro => metro.id === this.state.selectedMetro)[0]} />
+              <Footer />
           </div>
       );
   }
