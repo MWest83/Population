@@ -50,10 +50,11 @@ class Header extends Component {
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink classname="nav=link" to="/aboutus">
-                                    <i className="fa fa-info fa-lg" /> About 
+                                <NavLink classname="nav=link" to="/topstate">
+                                    <i className="fa fa-info fa-lg" />10 Most Populated States 
                                 </NavLink>
-                            </NavItem><NavItem>
+                            </NavItem>
+                            <NavItem>
                                 <NavLink classname="nav=link" to="/contact">
                                     <i className="fa fa-address-card fa-lg" /> Contact Us
                                 </NavLink>

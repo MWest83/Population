@@ -1,4 +1,4 @@
-export const topStates = [
+export const topState = [
     {
         id: 0,
         state: "California",
