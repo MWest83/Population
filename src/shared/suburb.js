@@ -1,6 +1,7 @@
 export const suburbs = [
     {
         id: 0,
+        metroId: 0,
         city: 'Brooklyn',
         image: 'brooklynSub.jpg',
         population: 2559903,
@@ -8,6 +9,7 @@ export const suburbs = [
     },
     {
         id: 1,
+        metroId: 0,
         city: 'Queens',
         image: 'queensSub.jpg',
         population: 2253858,
@@ -15,6 +17,7 @@ export const suburbs = [
     },
     {
         id: 2,
+        metroId: 0,
         city: 'Manhatten',
         image: 'manhattenSub.jpg',
         population: 1628706,
@@ -22,6 +25,7 @@ export const suburbs = [
     },
     {
         id: 3,
+        metroId: 0,
         city: 'Bronx',
         image: 'bronxSub.jpg',
         population: 1418207,
@@ -29,6 +33,7 @@ export const suburbs = [
     },
     {
         id: 4,
+        metroId: 0,
         city: 'Staten-Island',
         image: 'statenislandSub.jpg',
         population: 476143,
@@ -36,6 +41,7 @@ export const suburbs = [
     },  
     {
         id: 5,
+        metroId: 1,
         city: 'Long Beach',
         image: 'longbeachSub.jpg',
         population: 465576,
@@ -43,6 +49,7 @@ export const suburbs = [
     },
     {
         id: 6,
+        metroId: 1,
         city: 'Anaheim',
         image: 'anaheimSub.jpg',
         population: 341361,
@@ -50,6 +57,7 @@ export const suburbs = [
     },
     {
         id: 7,
+        metroId: 1,
         city: 'Santa Ana',
         image: 'santaanaSub.jpg',
         population: 329427,
@@ -57,6 +65,7 @@ export const suburbs = [
     },
     {
         id: 8,
+        metroId: 1,
         city: 'Irvine',
         image: 'irvineSub.jpg',
         population: 215529,
@@ -64,6 +73,7 @@ export const suburbs = [
     }, 
     {
         id: 9,
+        metroId: 2,
         city: 'Auroura',
         image: 'aurouraSub.jpg',
         population: 198870,
@@ -71,6 +81,7 @@ export const suburbs = [
     },
     {
         id: 10,
+        metroId: 2,
         city: 'Naperville',
         image: 'napervilleSub.jpg',
         population: 149196,
@@ -78,6 +89,7 @@ export const suburbs = [
     },
     {
         id: 11,
+        metroId: 2,
         city: 'Joliet',
         image: 'jolietSub.jpg',
         population: 329427,
@@ -85,12 +97,14 @@ export const suburbs = [
     },
     {
         id: 12,
+        metroId: 2,
         city: 'Elgin',
         image: 'irvineSub.jpg',
         population: 111401,
         description: "Elgin is one of the most populated cities in the Chicago metro."
     }, {
         id: 13,
+        metroId: 3,
         city: 'Fort Worth',
         image: 'fortworthSub.jpg',
         population: 909585,
@@ -98,6 +112,7 @@ export const suburbs = [
     },
     {
         id: 14,
+        metroId: 3,
         city: 'Arlington',
         image: 'arlingtonSub.jpg',
         population: 398854,
@@ -105,6 +120,7 @@ export const suburbs = [
     },
     {
         id: 15,
+        metroId: 3,
         city: 'Plano',
         image: 'planoSub.jpg',
         population: 287677,
@@ -112,12 +128,14 @@ export const suburbs = [
     },
     {
         id: 16,
+        metroId: 3,
         city: 'Garland',
         image: 'garlandSub.jpg',
         population: 239928,
         description: "Garland is one of the most populated cities in the DFW metro."
     }, {
         id: 17,
+        metroId: 4,
         city: 'Pasadena',
         image: 'pasadenaSub.jpg',
         population: 154193,
@@ -125,6 +143,7 @@ export const suburbs = [
     },
     {
         id: 18,
+        metroId: 4,
         city: 'Pearland',
         image: 'pearlandSub.jpg',
         population: 122149,
@@ -132,6 +151,7 @@ export const suburbs = [
     },
     {
         id: 19,
+        metroId: 4,
         city: 'Sugarland',
         image: 'sugarlandSub.jpg',
         population: 118600,
@@ -139,12 +159,14 @@ export const suburbs = [
     },
     {
         id: 20,
+        metroId: 4,
         city: 'The Woodlands',
         image: 'thewoodlandsSub.jpg',
         population: 116278,
         description: "The Woodlands is one of the most populated cities in the Houston metro."
     },{
         id: 21,
+        metroId: 5,
         city: 'Arlington',
         image: 'arlingtonvaSub.jpg',
         population: 236842,
@@ -152,6 +174,7 @@ export const suburbs = [
     },
     {
         id: 22,
+        metroId: 5,
         city: 'Alexadria',
         image: 'alexadriaSub.jpg',
         population: 157613,
@@ -159,6 +182,7 @@ export const suburbs = [
     },
     {
         id: 23,
+        metroId: 5,
         city: 'Silver Spring',
         image: 'silverspringSub.jpg',
         population: 81773,
@@ -166,12 +190,14 @@ export const suburbs = [
     },
     {
         id: 24,
+        metroId: 5,
         city: 'Gaithersburg',
         image: 'gaithersburgSub.jpg',
         population: 67742,
         description: "Gaithersburg is one of the most populated cities in the Washington DC metro."
     },{
         id: 25,
+        metroId: 6,
         city: 'Hialeah',
         image: 'hialeahSub.jpg',
         population: 238942,
@@ -179,6 +205,7 @@ export const suburbs = [
     },
     {
         id: 26,
+        metroId: 6,
         city: 'Fort Lauderdale',
         image: 'ftlauderdaleSub.jpg',
         population: 182595,
@@ -186,6 +213,7 @@ export const suburbs = [
     },
     {
         id: 27,
+        metroId: 6,
         city: 'Pembroke Pines',
         image: 'pembrokepinesSub.jpg',
         population: 172374,
@@ -193,12 +221,14 @@ export const suburbs = [
     },
     {
         id: 28,
+        metroId: 7,
         city: 'Hollywood',
         image: 'hollywoodSub.jpg',
         population: 154823,
         description: "Hollywood is one of the most populated cities in the Miami metro."
     },{
         id: 29,
+        metroId: 7,
         city: 'Reading',
         image: 'readingSub.jpg',
         population: 87575,
@@ -206,6 +236,7 @@ export const suburbs = [
     },
     {
         id: 30,
+        metroId: 7,
         city: 'Upper Darby',
         image: 'upperdarbySub.jpg',
         population: 82765,
@@ -213,6 +244,7 @@ export const suburbs = [
     },
     {
         id: 31,
+        metroId: 7,
         city: 'Camden',
         image: 'camdenSub.jpg',
         population: 74420,
@@ -220,6 +252,7 @@ export const suburbs = [
     },
     {
         id: 32,
+        metroId: 7,
         city: 'Wilmington',
         image: 'wilmingtonSub.jpg',
         population: 71502,
@@ -227,6 +260,7 @@ export const suburbs = [
     },
     {
         id: 33,
+        metroId: 8,
         city: 'Sandy Springs',
         image: 'sandyspringsSub.jpg',
         population: 93853,
@@ -234,6 +268,7 @@ export const suburbs = [
     },
     {
         id: 34,
+        metroId: 8,
         city: 'Roswell',
         image: 'roswellSub.jpg',
         population: 88346,
@@ -241,6 +276,7 @@ export const suburbs = [
     },
     {
         id: 35,
+        metroId: 8,
         city: 'Johns Creek',
         image: 'johnscreekSub.jpg',
         population: 76728,
@@ -248,19 +284,23 @@ export const suburbs = [
     },
     {
         id: 36,
+        metroId: 8,
         city: 'Alpharetta',
         image: 'alpharettaSub.jpg',
         population: 57551,
         description: "Alpharetta is one of the most populated cities in the Philadelphia metro."
     },{
         id: 37,
+        
         city: 'Mesa',
+        metroId: 9,
         image: 'mesaSub.jpg',
         population: 518012,
         description: "Mesa is one of the most populated cities in the Phoenix metro."
     },
     {
         id: 38,
+        metroId: 9,
         city: 'Chandler',
         image: 'chandlerSub.jpg',
         population: 261165,
@@ -268,6 +308,7 @@ export const suburbs = [
     },
     {
         id: 39,
+        metroId: 9,
         city: 'Scottsdale',
         image: 'scottsdaleSub.jpg',
         population: 258069,
@@ -275,10 +316,11 @@ export const suburbs = [
     },
     {
         id: 40,
+        metroId: 9,
         city: 'Gilbert',
         image: 'gilbertSub.jpg',
         population: 254114,
         description: "Gilbert is one of the most populated cities in the Phoenix metro."
     }
 
-]
+];

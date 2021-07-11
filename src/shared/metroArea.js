@@ -8,7 +8,7 @@ export const metroArea = [
         
     },
     {
-      id: 1,
+        id: 1,
         name: "Los Angeles Metro",
         image: 'assets/images/los-angeles.jpg',
         population: 13109903,
