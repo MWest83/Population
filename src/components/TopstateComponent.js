@@ -4,9 +4,9 @@ import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
 function RenderTopstateItem({top}) {
     return (
         <Card>
-            <CardImg width="100%" src={top.image} alt={top.state} />
+            <CardImg width="100%" src={top.image} alt={top.name} />
             <CardImgOverlay>
-                <CardTitle>{top.state}</CardTitle>
+                <CardTitle>{top.name}</CardTitle>
             </CardImgOverlay>
         </Card>
     );

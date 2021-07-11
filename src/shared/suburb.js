@@ -1,4 +1,4 @@
-export const suburbs = [
+export const suburb = [
     {
         id: 0,
         metroId: 0,

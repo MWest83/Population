@@ -4,6 +4,7 @@ export const metroArea = [
         name: "New York Metro",
         image: 'assets/images/new-york.jpg',
         population: 19124359,
+        featured: true,
         cityState: 'New York'
         
     },
@@ -12,6 +13,7 @@ export const metroArea = [
         name: "Los Angeles Metro",
         image: 'assets/images/los-angeles.jpg',
         population: 13109903,
+        featured: false,
         cityState: 'California'
 
     },
@@ -20,6 +22,7 @@ export const metroArea = [
         name: "Chicago Metro",
         image: 'assets/images/chicago.jpg',
         population: 9406638,
+        featured: false,
         cityState: 'Illonis'
     
     },
@@ -28,6 +31,7 @@ export const metroArea = [
         name: "Dallas-Fort Worth Metro",
         image: 'assets/images/dfw.jpg',
         population: 7694138,
+        featured: false,
         cityState: 'Texas'
       
     },
@@ -36,6 +40,7 @@ export const metroArea = [
         name: "Houston Metro",
         image: 'assets/images/houston.jpg',
         population: 7154478,
+        featured: false,
         cityState: 'Texas'
        
     },
@@ -44,6 +49,7 @@ export const metroArea = [
         name: "Washington DC Metro",
         image: 'assets/images/washington-dc.jpg',
         population: 6324629,
+        featured: false,
         cityState: 'District of Columbia'
        
 
@@ -53,6 +59,7 @@ export const metroArea = [
         name: "Miami Metro",
         image: 'assets/images/miami.jpg',
         population: 6324629,
+        featured: false,
         cityState: 'Florida'
 
     },
@@ -61,6 +68,7 @@ export const metroArea = [
         name: "Philadelphia Metro",
         image: 'assets/images/philly.jpg',
         population: 6107906,
+        featured: false,
         cityState: 'Pennsylvania'
         
     },
@@ -69,6 +77,7 @@ export const metroArea = [
         name: "Atlanta Metro",
         image: 'assets/images/atlanta.jpg',
         population: 6087762,
+        featured: false,
         cityState: 'Georgia'
 
     },
@@ -77,6 +86,7 @@ export const metroArea = [
         name: "Phoenix Metro",
         image: 'assets/images/phoenix.jpg',
         population: 5059909,
+        featured: false,
         cityState: 'Arizona'
 
     }

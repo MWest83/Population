@@ -8,6 +8,8 @@ import Topstate from './TopstateComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { metroArea } from '../shared/metroArea';
 import { topState } from '../shared/topState';
+import { zip } from '../shared/zip';
+import { suburb } from '../shared/suburb';
 
 class Main extends Component {
     constructor(props) {
@@ -15,6 +17,8 @@ class Main extends Component {
         this.state = {
             metroArea: metroArea,
             topState: topState,
+            zip: zip,
+            suburb: suburb,
         };
     }
 
@@ -23,7 +27,11 @@ class Main extends Component {
 
     const HomePage = () => {
         return (
-            <Home />
+            <Home 
+                metroarea={this.state.metroArea.filter(metroarea => metroarea.featured)[0]}
+                topstate={this.state.topState.filter(topstate => topstate.featured)[0]}
+                zip={this.state.zip.filter(zip => zip.featured)[0]}
+            />
         );
     }
       return (
