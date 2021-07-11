@@ -5,6 +5,7 @@ export const metroArea = [
         image: 'assets/images/new-york.jpg',
         population: 19124359,
         featured: true,
+        description: "New York City metro is the most populated metro area in the United States.",
         cityState: 'New York'
         
     },
@@ -14,6 +15,7 @@ export const metroArea = [
         image: 'assets/images/los-angeles.jpg',
         population: 13109903,
         featured: false,
+        description: "Los Angeles metro is the 2nd most populated metro area in the United States.",
         cityState: 'California'
 
     },
@@ -23,6 +25,7 @@ export const metroArea = [
         image: 'assets/images/chicago.jpg',
         population: 9406638,
         featured: false,
+        description: "Chicago metro is the 3rd most populated metro area in the United States.",
         cityState: 'Illonis'
     
     },
@@ -32,6 +35,7 @@ export const metroArea = [
         image: 'assets/images/dfw.jpg',
         population: 7694138,
         featured: false,
+        description: "Dallas-Fort Worth metro is the 4th most populated metro area in the United States.",
         cityState: 'Texas'
       
     },
@@ -41,6 +45,7 @@ export const metroArea = [
         image: 'assets/images/houston.jpg',
         population: 7154478,
         featured: false,
+        description: "Houston metro is the 5th most populated metro area in the United States.",
         cityState: 'Texas'
        
     },
@@ -50,6 +55,7 @@ export const metroArea = [
         image: 'assets/images/washington-dc.jpg',
         population: 6324629,
         featured: false,
+        description: "Washington DC metro is the 6th most populated metro area in the United States.",
         cityState: 'District of Columbia'
        
 
@@ -60,6 +66,7 @@ export const metroArea = [
         image: 'assets/images/miami.jpg',
         population: 6324629,
         featured: false,
+        description: "Miami metro is the 7th most populated metro area in the United States.",
         cityState: 'Florida'
 
     },
@@ -69,6 +76,7 @@ export const metroArea = [
         image: 'assets/images/philly.jpg',
         population: 6107906,
         featured: false,
+        description: "Philadelphia metro is the 8th most populated metro area in the United States.",
         cityState: 'Pennsylvania'
         
     },
@@ -78,6 +86,7 @@ export const metroArea = [
         image: 'assets/images/atlanta.jpg',
         population: 6087762,
         featured: false,
+        description: "Atlanta metro is the 9th most populated metro area in the United States.",
         cityState: 'Georgia'
 
     },
@@ -87,6 +96,7 @@ export const metroArea = [
         image: 'assets/images/phoenix.jpg',
         population: 5059909,
         featured: false,
+        description: "Phoenix metro is the 10th most populated metro area in the United States.",
         cityState: 'Arizona'
 
     }
