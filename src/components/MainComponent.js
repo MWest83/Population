@@ -34,12 +34,26 @@ class Main extends Component {
             />
         );
     }
+
+    const MetroWithId = ({match}) => {
+        return(
+            <MetroInfo 
+                metro={this.state.metroArea.filter(metro => metro.id === 
+                +match.params.metroId)[0]} 
+                suburb={this.state.suburb.filter(suburb => suburb.metroId === 
+                +match.params.metroId)} 
+            />
+        );
+    }
+
+
       return (
           <div>
               <Header />
               <Switch>
                   <Route path='/home' component={HomePage} />
                 <Route exact path='/directory' render={() => <Directory metroArea={this.state.metroArea}/>} />
+                <Route path='/directory/:metroId' component={MetroWithId} />
                 <Route exact path='/topstate' render={() => <Topstate topState={this.state.topState} />} />
                 <Redirect to='/home' />
               </Switch>

@@ -1,14 +1,17 @@
 import React from 'react';
 import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 
 function RenderDirectoryItem({metro}) {
     return (
         <Card>
-            <CardImg width="100%" src={metro.image} alt={metro.name} />
-            <CardImgOverlay>
-                <CardTitle>{metro.name}</CardTitle>
-            </CardImgOverlay>
+            <Link to={`/directory/${metro.id}`}>
+                <CardImg width="100%" src={metro.image} alt={metro.name} />
+                <CardImgOverlay>
+                    <CardTitle>{metro.name}</CardTitle>
+                </CardImgOverlay>
+            </Link>
         </Card>
     );
 }
