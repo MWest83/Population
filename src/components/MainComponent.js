@@ -37,12 +37,14 @@ class Main extends Component {
 
     const MetroWithId = ({match}) => {
         return(
+            
             <MetroInfo 
                 metro={this.state.metroArea.filter(metro => metro.id === 
                 +match.params.metroId)[0]} 
                 suburb={this.state.suburb.filter(suburb => suburb.metroId === 
                 +match.params.metroId)} 
             />
+            
         );
     }
 

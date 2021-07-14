@@ -3,7 +3,7 @@ export const suburb = [
         id: 0,
         metroId: 0,
         city: 'Brooklyn',
-        image: 'brooklynSub.jpg',
+        image: '/assets/images/brooklynSub.jpg',
         population: 2559903,
         description: "Brooklyn is the most populated borough in the New York City metro."
     },
@@ -11,7 +11,7 @@ export const suburb = [
         id: 1,
         metroId: 0,
         city: 'Queens',
-        image: 'queensSub.jpg',
+        image: '/assets/images/queensSub.jpg',
         population: 2253858,
         description: "Queens is the 2nd most populated borough in the New York City metro."
     },
@@ -19,7 +19,7 @@ export const suburb = [
         id: 2,
         metroId: 0,
         city: 'Manhatten',
-        image: 'manhattenSub.jpg',
+        image: '/assets/images/manhattenSub.jpg',
         population: 1628706,
         description: "Manhatten is the 3rd most populated borough in the New York City metro."
     },
@@ -27,7 +27,7 @@ export const suburb = [
         id: 3,
         metroId: 0,
         city: 'Bronx',
-        image: 'bronxSub.jpg',
+        image: '/assets/images/bronxSub.jpg',
         population: 1418207,
         description: "Bronx is the 4th most populated borough in the New York City metro."
     },
@@ -35,7 +35,7 @@ export const suburb = [
         id: 4,
         metroId: 0,
         city: 'Staten-Island',
-        image: 'statenislandSub.jpg',
+        image: '/assets/images/statenislandSub.jpg',
         population: 476143,
         description: "Staten island is the 5th most populated borough in the New York City metro."
     },  
@@ -43,7 +43,7 @@ export const suburb = [
         id: 5,
         metroId: 1,
         city: 'Long Beach',
-        image: 'longbeachSub.jpg',
+        image: '/assets/images/longbeachSub.jpg',
         population: 465576,
         description: "Long Beach is one of the most populated cities in the Los Angeles metro."
     },
@@ -51,7 +51,7 @@ export const suburb = [
         id: 6,
         metroId: 1,
         city: 'Anaheim',
-        image: 'anaheimSub.jpg',
+        image: '/assets/images/anaheimSub.jpg',
         population: 341361,
         description: "Anaheim is one of the most populated cities in the Los Angeles metro."
     },
@@ -59,7 +59,7 @@ export const suburb = [
         id: 7,
         metroId: 1,
         city: 'Santa Ana',
-        image: 'santaanaSub.jpg',
+        image: '/assets/images/santaanaSub.jpg',
         population: 329427,
         description: "Santa Ana is one of the most populated cities in the Los Angeles metro."
     },
@@ -67,7 +67,7 @@ export const suburb = [
         id: 8,
         metroId: 1,
         city: 'Irvine',
-        image: 'irvineSub.jpg',
+        image: '/assets/images/irvineSub.jpg',
         population: 215529,
         description: "Irvine is one of the most populated cities in the Los Angeles metro."
     }, 
@@ -75,7 +75,7 @@ export const suburb = [
         id: 9,
         metroId: 2,
         city: 'Auroura',
-        image: 'aurouraSub.jpg',
+        image: '/assets/images/aurouraSub.jpg',
         population: 198870,
             description: "Auroura is one of the most populated cities in the Chicago metro."
     },
@@ -83,7 +83,7 @@ export const suburb = [
         id: 10,
         metroId: 2,
         city: 'Naperville',
-        image: 'napervilleSub.jpg',
+        image: '/assets/images/napervilleSub.jpg',
         population: 149196,
         description: "Naperville is one of the most populated cities in the Chicago metro."
     },
@@ -91,7 +91,7 @@ export const suburb = [
         id: 11,
         metroId: 2,
         city: 'Joliet',
-        image: 'jolietSub.jpg',
+        image: '/assets/images/jolietSub.jpg',
         population: 329427,
         description: "Joliet is one of the most populated cities in the Chicago metro."
     },
@@ -99,14 +99,14 @@ export const suburb = [
         id: 12,
         metroId: 2,
         city: 'Elgin',
-        image: 'irvineSub.jpg',
+        image: '/assets/images/irvineSub.jpg',
         population: 111401,
         description: "Elgin is one of the most populated cities in the Chicago metro."
     }, {
         id: 13,
         metroId: 3,
         city: 'Fort Worth',
-        image: 'fortworthSub.jpg',
+        image: '/assets/images/fortworthSub.jpg',
         population: 909585,
         description: "Fort Worth is one of the most populated cities in the DFW metro."
     },
@@ -114,7 +114,7 @@ export const suburb = [
         id: 14,
         metroId: 3,
         city: 'Arlington',
-        image: 'arlingtonSub.jpg',
+        image: '/assets/images/arlingtonSub.jpg',
         population: 398854,
         description: "Arlington is one of the most populated cities in the DFW metro."
     },
@@ -122,7 +122,7 @@ export const suburb = [
         id: 15,
         metroId: 3,
         city: 'Plano',
-        image: 'planoSub.jpg',
+        image: '/assets/images/planoSub.jpg',
         population: 287677,
         description: "Plano is one of the most populated cities in the DFW metro."
     },
@@ -130,14 +130,14 @@ export const suburb = [
         id: 16,
         metroId: 3,
         city: 'Garland',
-        image: 'garlandSub.jpg',
+        image: '/assets/images/garlandSub.jpg',
         population: 239928,
         description: "Garland is one of the most populated cities in the DFW metro."
     }, {
         id: 17,
         metroId: 4,
         city: 'Pasadena',
-        image: 'pasadenaSub.jpg',
+        image: '/assets/images/pasadenaSub.jpg',
         population: 154193,
         description: "Pasadena is one of the most populated cities in the Houston metro."
     },
@@ -145,7 +145,7 @@ export const suburb = [
         id: 18,
         metroId: 4,
         city: 'Pearland',
-        image: 'pearlandSub.jpg',
+        image: '/assets/images/pearlandSub.jpg',
         population: 122149,
         description: "Pearland is one of the most populated cities in the Houston metro."
     },
@@ -153,7 +153,7 @@ export const suburb = [
         id: 19,
         metroId: 4,
         city: 'Sugarland',
-        image: 'sugarlandSub.jpg',
+        image: '/assets/images/sugarlandSub.jpg',
         population: 118600,
         description: "Sugarland is one of the most populated cities in the Houston metro."
     },
@@ -161,14 +161,14 @@ export const suburb = [
         id: 20,
         metroId: 4,
         city: 'The Woodlands',
-        image: 'thewoodlandsSub.jpg',
+        image: '/assets/images/thewoodlandsSub.jpg',
         population: 116278,
         description: "The Woodlands is one of the most populated cities in the Houston metro."
     },{
         id: 21,
         metroId: 5,
         city: 'Arlington',
-        image: 'arlingtonvaSub.jpg',
+        image: '/assets/images/arlingtonvaSub.jpg',
         population: 236842,
         description: "Arlington is one of the most populated cities in the Washington DC metro."
     },
@@ -176,7 +176,7 @@ export const suburb = [
         id: 22,
         metroId: 5,
         city: 'Alexadria',
-        image: 'alexadriaSub.jpg',
+        image: '/assets/images/alexadriaSub.jpg',
         population: 157613,
         description: "Alexadria is one of the most populated cities in the Washington DC metro."
     },
@@ -184,7 +184,7 @@ export const suburb = [
         id: 23,
         metroId: 5,
         city: 'Silver Spring',
-        image: 'silverspringSub.jpg',
+        image: '/assets/images/silverspringSub.jpg',
         population: 81773,
         description: "Silver Spring is one of the most populated cities in the Washington DC metro."
     },
@@ -192,14 +192,14 @@ export const suburb = [
         id: 24,
         metroId: 5,
         city: 'Gaithersburg',
-        image: 'gaithersburgSub.jpg',
+        image: '/assets/images/gaithersburgSub.jpg',
         population: 67742,
         description: "Gaithersburg is one of the most populated cities in the Washington DC metro."
     },{
         id: 25,
         metroId: 6,
         city: 'Hialeah',
-        image: 'hialeahSub.jpg',
+        image: '/assets/images/hialeahSub.jpg',
         population: 238942,
         description: "Hialeah is one of the most populated cities in the Miami metro."
     },
@@ -207,7 +207,7 @@ export const suburb = [
         id: 26,
         metroId: 6,
         city: 'Fort Lauderdale',
-        image: 'ftlauderdaleSub.jpg',
+        image: '/assets/images/ftlauderdaleSub.jpg',
         population: 182595,
         description: "Fort Lauderdale is one of the most populated cities in the Miami metro."
     },
@@ -215,7 +215,7 @@ export const suburb = [
         id: 27,
         metroId: 6,
         city: 'Pembroke Pines',
-        image: 'pembrokepinesSub.jpg',
+        image: '/assets/images/pembrokepinesSub.jpg',
         population: 172374,
         description: "Pembroke Pines is one of the most populated cities in the Miami metro."
     },
@@ -223,14 +223,14 @@ export const suburb = [
         id: 28,
         metroId: 7,
         city: 'Hollywood',
-        image: 'hollywoodSub.jpg',
+        image: '/assets/images/hollywoodSub.jpg',
         population: 154823,
         description: "Hollywood is one of the most populated cities in the Miami metro."
     },{
         id: 29,
         metroId: 7,
         city: 'Reading',
-        image: 'readingSub.jpg',
+        image: '/assets/images/readingSub.jpg',
         population: 87575,
         description: "Reading is one of the most populated cities in the Philadelphia metro."
     },
@@ -238,7 +238,7 @@ export const suburb = [
         id: 30,
         metroId: 7,
         city: 'Upper Darby',
-        image: 'upperdarbySub.jpg',
+        image: '/assets/images/upperdarbySub.jpg',
         population: 82765,
         description: "Upper Darby is one of the most populated cities in the Philadelphia metro."
     },
@@ -246,7 +246,7 @@ export const suburb = [
         id: 31,
         metroId: 7,
         city: 'Camden',
-        image: 'camdenSub.jpg',
+        image: '/assets/images/camdenSub.jpg',
         population: 74420,
         description: "Camden is one of the most populated cities in the Philadelphia metro."
     },
@@ -254,7 +254,7 @@ export const suburb = [
         id: 32,
         metroId: 7,
         city: 'Wilmington',
-        image: 'wilmingtonSub.jpg',
+        image: '/assets/images/wilmingtonSub.jpg',
         population: 71502,
         description: "Wilmington is one of the most populated cities in the Philadelphia metro."
     },
@@ -262,7 +262,7 @@ export const suburb = [
         id: 33,
         metroId: 8,
         city: 'Sandy Springs',
-        image: 'sandyspringsSub.jpg',
+        image: '/assets/images/sandyspringsSub.jpg',
         population: 93853,
         description: "Sandy Springs is one of the most populated cities in the Atlanta metro."
     },
@@ -270,7 +270,7 @@ export const suburb = [
         id: 34,
         metroId: 8,
         city: 'Roswell',
-        image: 'roswellSub.jpg',
+        image: '/assets/images/roswellSub.jpg',
         population: 88346,
         description: "Roswell is one of the most populated cities in the Atlanta metro."
     },
@@ -278,7 +278,7 @@ export const suburb = [
         id: 35,
         metroId: 8,
         city: 'Johns Creek',
-        image: 'johnscreekSub.jpg',
+        image: '/assets/images/johnscreekSub.jpg',
         population: 76728,
         description: "Johns Creek is one of the most populated cities in the Atlanta metro."
     },
@@ -286,7 +286,7 @@ export const suburb = [
         id: 36,
         metroId: 8,
         city: 'Alpharetta',
-        image: 'alpharettaSub.jpg',
+        image: '/assets/images/alpharettaSub.jpg',
         population: 57551,
         description: "Alpharetta is one of the most populated cities in the Philadelphia metro."
     },{
@@ -294,7 +294,7 @@ export const suburb = [
         
         city: 'Mesa',
         metroId: 9,
-        image: 'mesaSub.jpg',
+        image: '/assets/images/mesaSub.jpg',
         population: 518012,
         description: "Mesa is one of the most populated cities in the Phoenix metro."
     },
@@ -302,7 +302,7 @@ export const suburb = [
         id: 38,
         metroId: 9,
         city: 'Chandler',
-        image: 'chandlerSub.jpg',
+        image: '/assets/images/chandlerSub.jpg',
         population: 261165,
         description: "Chandler is one of the most populated cities in the Phoenix metro."
     },
@@ -310,7 +310,7 @@ export const suburb = [
         id: 39,
         metroId: 9,
         city: 'Scottsdale',
-        image: 'scottsdaleSub.jpg',
+        image: '/assets/images/scottsdaleSub.jpg',
         population: 258069,
         description: "Scottsdale is one of the most populated cities in the Phoenix metro."
     },
@@ -318,7 +318,7 @@ export const suburb = [
         id: 40,
         metroId: 9,
         city: 'Gilbert',
-        image: 'gilbertSub.jpg',
+        image: '/assets/images/gilbertSub.jpg',
         population: 254114,
         description: "Gilbert is one of the most populated cities in the Phoenix metro."
     }
