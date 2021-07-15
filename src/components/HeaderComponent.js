@@ -55,7 +55,7 @@ class Header extends Component {
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink classname="nav=link" to="/contact">
+                                <NavLink classname="nav=link" to="/zip">
                                     <i className="fa fa-address-card fa-lg" /> 10 Most Populated Zip Codes
                                 </NavLink>
                             </NavItem>

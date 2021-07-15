@@ -5,6 +5,7 @@ import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
 import Topstate from './TopstateComponent';
+import Zipcode from './ZipcodeComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { metroArea } from '../shared/metroArea';
 import { topState } from '../shared/topState';
@@ -57,6 +58,7 @@ class Main extends Component {
                 <Route exact path='/directory' render={() => <Directory metroArea={this.state.metroArea}/>} />
                 <Route path='/directory/:metroId' component={MetroWithId} />
                 <Route exact path='/topstate' render={() => <Topstate topState={this.state.topState} />} />
+                <Route exact path='/zip' render={() => <Zipcode zip={this.state.zip} />} />
                 <Redirect to='/home' />
               </Switch>
               <Footer />
