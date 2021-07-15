@@ -3,7 +3,7 @@ export const suburb = [
         id: 0,
         metroId: 0,
         city: 'Brooklyn',
-        image: '/assets/images/brooklynSub.jpg',
+        image: '/assets/images/brooklynSub.jpeg',
         population: 2559903,
         description: "Brooklyn is the most populated borough in the New York City metro."
     },
@@ -43,7 +43,7 @@ export const suburb = [
         id: 5,
         metroId: 1,
         city: 'Long Beach',
-        image: '/assets/images/longbeachSub.jpg',
+        image: '/assets/images/longbeachSub.jpeg',
         population: 465576,
         description: "Long Beach is one of the most populated cities in the Los Angeles metro."
     },
@@ -75,7 +75,7 @@ export const suburb = [
         id: 9,
         metroId: 2,
         city: 'Auroura',
-        image: '/assets/images/aurouraSub.jpg',
+        image: '/assets/images/aurouraSub.jpeg',
         population: 198870,
             description: "Auroura is one of the most populated cities in the Chicago metro."
     },
@@ -83,7 +83,7 @@ export const suburb = [
         id: 10,
         metroId: 2,
         city: 'Naperville',
-        image: '/assets/images/napervilleSub.jpg',
+        image: '/assets/images/napervilleSub.jpeg',
         population: 149196,
         description: "Naperville is one of the most populated cities in the Chicago metro."
     },
@@ -114,7 +114,7 @@ export const suburb = [
         id: 14,
         metroId: 3,
         city: 'Arlington',
-        image: '/assets/images/arlingtonSub.jpg',
+        image: '/assets/images/arlingtonSub.jpeg',
         population: 398854,
         description: "Arlington is one of the most populated cities in the DFW metro."
     },
@@ -122,7 +122,7 @@ export const suburb = [
         id: 15,
         metroId: 3,
         city: 'Plano',
-        image: '/assets/images/planoSub.jpg',
+        image: '/assets/images/planoSub.jpeg',
         population: 287677,
         description: "Plano is one of the most populated cities in the DFW metro."
     },
@@ -137,7 +137,7 @@ export const suburb = [
         id: 17,
         metroId: 4,
         city: 'Pasadena',
-        image: '/assets/images/pasadenaSub.jpg',
+        image: '/assets/images/pasadenaSub.jpeg',
         population: 154193,
         description: "Pasadena is one of the most populated cities in the Houston metro."
     },
@@ -168,7 +168,7 @@ export const suburb = [
         id: 21,
         metroId: 5,
         city: 'Arlington',
-        image: '/assets/images/arlingtonvaSub.jpg',
+        image: '/assets/images/arlingtonvaSub.jpeg',
         population: 236842,
         description: "Arlington is one of the most populated cities in the Washington DC metro."
     },
@@ -176,7 +176,7 @@ export const suburb = [
         id: 22,
         metroId: 5,
         city: 'Alexadria',
-        image: '/assets/images/alexadriaSub.jpg',
+        image: '/assets/images/alexandriaSub.jpg',
         population: 157613,
         description: "Alexadria is one of the most populated cities in the Washington DC metro."
     },
@@ -221,7 +221,7 @@ export const suburb = [
     },
     {
         id: 28,
-        metroId: 7,
+        metroId: 6,
         city: 'Hollywood',
         image: '/assets/images/hollywoodSub.jpg',
         population: 154823,
@@ -238,7 +238,7 @@ export const suburb = [
         id: 30,
         metroId: 7,
         city: 'Upper Darby',
-        image: '/assets/images/upperdarbySub.jpg',
+        image: '/assets/images/upperdarbySub.jpeg',
         population: 82765,
         description: "Upper Darby is one of the most populated cities in the Philadelphia metro."
     },
@@ -270,7 +270,7 @@ export const suburb = [
         id: 34,
         metroId: 8,
         city: 'Roswell',
-        image: '/assets/images/roswellSub.jpg',
+        image: '/assets/images/roswellSub.jpeg',
         population: 88346,
         description: "Roswell is one of the most populated cities in the Atlanta metro."
     },
@@ -278,7 +278,7 @@ export const suburb = [
         id: 35,
         metroId: 8,
         city: 'Johns Creek',
-        image: '/assets/images/johnscreekSub.jpg',
+        image: '/assets/images/johnscreekSub.jpeg',
         population: 76728,
         description: "Johns Creek is one of the most populated cities in the Atlanta metro."
     },
@@ -286,7 +286,7 @@ export const suburb = [
         id: 36,
         metroId: 8,
         city: 'Alpharetta',
-        image: '/assets/images/alpharettaSub.jpg',
+        image: '/assets/images/alpharettaSub.jpeg',
         population: 57551,
         description: "Alpharetta is one of the most populated cities in the Philadelphia metro."
     },{
@@ -294,7 +294,7 @@ export const suburb = [
         
         city: 'Mesa',
         metroId: 9,
-        image: '/assets/images/mesaSub.jpg',
+        image: '/assets/images/mesaSub.jpeg',
         population: 518012,
         description: "Mesa is one of the most populated cities in the Phoenix metro."
     },
@@ -310,7 +310,7 @@ export const suburb = [
         id: 39,
         metroId: 9,
         city: 'Scottsdale',
-        image: '/assets/images/scottsdaleSub.jpg',
+        image: '/assets/images/scottsdale.jpg',
         population: 258069,
         description: "Scottsdale is one of the most populated cities in the Phoenix metro."
     },
@@ -318,7 +318,7 @@ export const suburb = [
         id: 40,
         metroId: 9,
         city: 'Gilbert',
-        image: '/assets/images/gilbertSub.jpg',
+        image: '/assets/images/gilbertSub.jpeg',
         population: 254114,
         description: "Gilbert is one of the most populated cities in the Phoenix metro."
     }
