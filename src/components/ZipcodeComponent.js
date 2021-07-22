@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function RenderZipcodeItem({zip}) {
     return (
         <Card>
-            <CardImg width="100%" src={zip.image} alt={zip.name} />
+            <CardImg width="100%" src={zip.image} alt={zip.city} />
             <CardImgOverlay>
                 <CardTitle>{zip.name}</CardTitle>
             </CardImgOverlay>
