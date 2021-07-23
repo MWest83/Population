@@ -11,7 +11,7 @@ h1, h2, h3 card-body>.card-title {
 }
 
 h2 {
-  color: #DAF7A6;
+  color: #9ae115;
 }
 
 .card-img-overlay .card-title {
@@ -26,22 +26,22 @@ h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(#0303B1, white);
+  background-image: linear-gradient(#082F86, rgb(145, 144, 144));
   padding: 20px 0;
 }
 
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #33D1FF, #EAB418, #97EA18);
-  color: white;
+  background-image: linear-gradient(to right, #4f5d8a, #373a88, #086182);
+  color: rgb(210, 14, 14);
 }
 
 .jumbotron h2 {
-  color: #33D1FF;
+  color: #9bb603;
 }
 
 .navbar-dark {
-  background-color: #0303B1;
+  background-color: #082F86;
 }
 
