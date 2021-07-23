@@ -11,7 +11,6 @@ import { metroArea } from '../shared/metroArea';
 import { topState } from '../shared/topState';
 import { zip } from '../shared/zip';
 import { suburb } from '../shared/suburb';
-import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 class Main extends Component {
     constructor(props) {
@@ -54,8 +53,6 @@ class Main extends Component {
       return (
           <div>
               <Header />
-                <TransitionGroup>
-                    <CSSTransition key={this.props.location.key} classNames="page" timeout={300}>
                         <Switch>
                             <Route path='/home' component={HomePage} />
                             <Route exact path='/directory' render={() => <Directory metroArea={this.state.metroArea}/>} />
@@ -64,8 +61,6 @@ class Main extends Component {
                             <Route exact path='/zip' render={() => <Zipcode zip={this.state.zip} />} />
                             <Redirect to='/home' />
                         </Switch>
-                    </CSSTransition>
-                </TransitionGroup>
               <Footer />
           </div>
       );
