@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 function RenderMetro({metro}) {
     return (
-        <div className="col-md-5 m-1">
+        <div className="col-md-7 m-1">
             <Card>
                     <CardImg top src={metro.image} alt={metro.name} />
                     <CardBody>
@@ -24,7 +24,7 @@ function RenderMetro({metro}) {
     function RenderSuburb({suburbs}) {
         if (suburbs) {
             return (
-                <div className="col-md-5 m-1">
+                <div className="col-md-4 m-1">
                 <h4> Most Populated Cities</h4>
                 {suburbs.map((suburb)=> {
                     return (

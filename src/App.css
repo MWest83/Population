@@ -26,8 +26,16 @@ h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(#082F86, #408206 );
+  background-image: linear-gradient(#082F86, #000100 );
   padding: 20px 0;
+}
+
+h5 { 
+  color: #3e73ce;
+}
+
+.fa {
+  color: #3e73ce;
 }
 
 .jumbotron {
