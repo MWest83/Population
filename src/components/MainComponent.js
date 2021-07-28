@@ -11,6 +11,7 @@ import { metroArea } from '../shared/metroArea';
 import { topState } from '../shared/topState';
 import { zip } from '../shared/zip';
 import { suburb } from '../shared/suburb';
+import { attraction } from '../shared/attraction';
 
 class Main extends Component {
     constructor(props) {
@@ -20,6 +21,7 @@ class Main extends Component {
             topState: topState,
             zip: zip,
             suburb: suburb,
+            attraction: attraction,
         };
     }
 
@@ -43,6 +45,8 @@ class Main extends Component {
                 metro={this.state.metroArea.filter(metro => metro.id === 
                 +match.params.metroId)[0]} 
                 suburb={this.state.suburb.filter(suburb => suburb.metroId === 
+                +match.params.metroId)}
+                attraction={this.state.attraction.filter(attraction => attraction.metroId ===
                 +match.params.metroId)} 
             />
             
