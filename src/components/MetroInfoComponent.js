@@ -25,7 +25,7 @@ function RenderMetro({metro}) {
         if (suburbs) {
             return (
                 <div className="col-md-4 m-1">
-                <h4> Most Populated Cities</h4>
+                <h2> Most Populated Cities</h2>
                 {suburbs.map((suburb)=> {
                     return (
                         <div key={suburb.id} classname='col-md-5'>

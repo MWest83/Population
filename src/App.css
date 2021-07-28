@@ -38,17 +38,6 @@ h5 {
   color: #3e73ce;
 }
 
-.jumbotron {
-  margin: 0;
-  padding: 30px;
-  background-image: linear-gradient(to right, #082F86, #408206, #082F86);
-  color: rgb(210, 14, 14);
-}
-
-.jumbotron h2 {
-  color: #9bb603;
-}
-
 .navbar-dark {
   background-color: #082F86;
 }
