@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 function RenderMetro({metro}) {
     return (
-        <div className="col-md-7 m-1">
+        <div className="col-md-10 m-5">
             <Card>
                     <CardImg top src={metro.image} alt={metro.name} />
                     <CardBody>
@@ -25,7 +25,7 @@ function RenderMetro({metro}) {
 function RenderAttraction({attraction}) {
     if (attraction) {
         return (
-            <div className="col-md-4 m-1">
+            <div className="col-md-5 m-4">
             <h2>Popular Attractions</h2>
             {attraction.map((attraction)=> {
                 return (
@@ -53,7 +53,7 @@ function RenderAttraction({attraction}) {
     function RenderSuburb({suburbs}) {
         if (suburbs) {
             return (
-                <div className="col-md-4 m-1">
+                <div className="col-md-5 m-4">
                 <h2> Most Populated Cities</h2>
                 {suburbs.map((suburb)=> {
                     return (

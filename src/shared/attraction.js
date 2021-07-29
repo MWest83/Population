@@ -38,7 +38,7 @@ export const attraction = [
     {
         key: 2,
         metroId: 1,
-        src: "/assets/images/rodeodriveAttraction.jpg",
+        src: "/assets/images/rodeodriveAttraction.jpeg",
         altText: "Rodeo Drive",
         caption: "Visitors often marvel at how small the shopping area truly is.",
         header: "Rodeo Drive"  
@@ -173,7 +173,7 @@ export const attraction = [
     {
         key: 1,
         metroId: 6,
-        src: "/assets/images/oceandriveAttraction.jpg",
+        src: "/assets/images/oceandriveAttraction.jpeg",
         altText: "Ocean Drive",
         caption: "This street is the heart of South Beach’s Art Deco district.",
         header: "Ocean Drive"
@@ -213,7 +213,7 @@ export const attraction = [
     {
         key: 2,
         metroId: 7,
-        src: "/assets/images/phillyartAttraction.jpg",
+        src: "/assets/images/phillyartAttraction.jpeg",
         altText: "Philadelphia Museum of Art",
         caption: "Its grand front steps appeared in the film Rocky",
         header: "Philadelphia Museum of Art"
@@ -223,7 +223,7 @@ export const attraction = [
     {
         key: 3,
         metroId: 7,
-        src: "/assets/images/independanceAttraction.jpg",
+        src: "/assets/images/independceAttraction.jpg",
         altText: "Independence National Historical Park",
         caption: "Birthplace of both the Declaration of Independence and the Constitution",
         header: "Independence National Historical Park"
