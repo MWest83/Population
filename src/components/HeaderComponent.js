@@ -36,7 +36,7 @@ class Header extends Component {
                                     </NavItem>
                                     <NavItem>
                                         <NavLink className="nav-link" to="/directory">
-                                            <i className="fa fa-hand-peace-o fa-lg" /> 10 Most Populated Cites
+                                            <i className="fa fa-hand-peace-o fa-lg" /> 10 Most Populated Metro Areas
                                         </NavLink>
                                     </NavItem>
                                     <NavItem>

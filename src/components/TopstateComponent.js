@@ -5,10 +5,12 @@ import { Link } from 'react-router-dom';
 function RenderTopstateItem({top}) {
     return (
         <Card>
-            <CardImg width="100%" src={top.image} alt={top.name} />
-            <CardImgOverlay>
-                <CardTitle>{top.name}</CardTitle>
-            </CardImgOverlay>
+            <Link to={`/topstate/${top.id}`}>
+                <CardImg width="100%" src={top.image} alt={top.name} />
+                <CardImgOverlay>
+                    <CardTitle>{top.name}</CardTitle>
+                </CardImgOverlay>
+            </Link>
         </Card>
     );
 }
@@ -31,7 +33,7 @@ function Topstate(props) {
                             <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                             <BreadcrumbItem active>10 Most Populated States</BreadcrumbItem>
                         </Breadcrumb>
-                        <h2>10 Most Populated States</h2>
+                        <h2>10 Most Populated States in the United States</h2>
                         <hr />
                 </div>
             </div>

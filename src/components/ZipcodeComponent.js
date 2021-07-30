@@ -31,7 +31,7 @@ function Zipcode(props) {
                             <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                             <BreadcrumbItem active>10 Most Populated Zip Codes</BreadcrumbItem>
                         </Breadcrumb>
-                        <h2>10 Most Populated Zip Codes</h2>
+                        <h2>10 Most Populated Zip Codes in the United States</h2>
                         <hr />
                 </div>
             </div>

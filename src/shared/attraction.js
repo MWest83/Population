@@ -22,7 +22,7 @@ export const attraction = [
         metroId: 0,
         src: "/assets/images/statueoflibertyAttraction.jpg",
         altText: "Statue of Liberty",
-        caption: "It is Bigger than the Country of Monaco.",
+        caption: "There are 25 windows in its crown.",
         header: "Statue of Liberty"
         
     },

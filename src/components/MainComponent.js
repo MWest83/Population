@@ -5,6 +5,7 @@ import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
 import Topstate from './TopstateComponent';
+import StateInfo from './StateInfoComponent';
 import Zipcode from './ZipcodeComponent';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { metroArea } from '../shared/metroArea';
@@ -12,6 +13,7 @@ import { topState } from '../shared/topState';
 import { zip } from '../shared/zip';
 import { suburb } from '../shared/suburb';
 import { attraction } from '../shared/attraction';
+import { county } from '../shared/county';
 
 class Main extends Component {
     constructor(props) {
@@ -22,6 +24,7 @@ class Main extends Component {
             zip: zip,
             suburb: suburb,
             attraction: attraction,
+            county: county,
         };
     }
 
@@ -53,6 +56,17 @@ class Main extends Component {
         );
     }
 
+    const StateWithId = ({match}) => {
+         return(
+            <StateInfo 
+               top={this.state.topState.filter(top => top.id ===
+                +match.params.topId)[0]}
+                county={this.state.county.filter(county => county.topId ===
+                +match.params.topId)}
+            />
+        );
+    }
+
 
       return (
           <div>
@@ -62,6 +76,7 @@ class Main extends Component {
                             <Route exact path='/directory' render={() => <Directory metroArea={this.state.metroArea}/>} />
                             <Route path='/directory/:metroId' component={MetroWithId} />
                             <Route exact path='/topstate' render={() => <Topstate topState={this.state.topState} />} />
+                            <Route path='/topstate/:topId' component={StateWithId} />
                             <Route exact path='/zip' render={() => <Zipcode zip={this.state.zip} />} />
                             <Redirect to='/home' />
                         </Switch>

@@ -87,7 +87,7 @@ function RenderAttraction({attraction}) {
                 <div className="row">
                     <div className="col">
                         <Breadcrumb>
-                            <BreadcrumbItem><Link to="/directory">10 Most Populated Metro Areas</Link></BreadcrumbItem>
+                            <BreadcrumbItem><Link to="/directory">10 Most Populated Metro Areas in the United States</Link></BreadcrumbItem>
                             <BreadcrumbItem active>{props.metro.name}</BreadcrumbItem>
                         </Breadcrumb>
                         <h2>{props.metro.name}</h2>
