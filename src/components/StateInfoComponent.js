@@ -22,7 +22,7 @@ function RenderTop({top}) {
 function RenderCounty({county}) {
     if (county) {
         return (
-            <div className="col-md-5 m-4">
+            <div className="col-md-5 m-1">
             <h2>Popular Attractions</h2>
             {county.map((county)=> {
                 return (
