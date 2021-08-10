@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle, Breadcrumb, 
-            BreadcrumbItem } from 'reactstrap';
+            BreadcrumbItem, CardDeck, CardSubtitle } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 
@@ -19,6 +19,34 @@ function RenderTop({top}) {
     );
 }
 
+function RenderCounty({county}) {
+    if (county) {
+        return (
+            <div className="col-md-5 m-4">
+            <h2>Popular Attractions</h2>
+            {county.map((county)=> {
+                return (
+                    <div key={county.id} classname='col-md-3'>
+                         <CardDeck>
+                                    <Card>
+                                        <CardImg top width="100%" src={county.image} alt={county.name} />   
+                                        <CardBody>
+                                        <CardTitle tag="h5">{county.name}</CardTitle>
+                                        <CardSubtitle tag="h6" className="mb-2 text-muted">{county.population}</CardSubtitle>
+                                        </CardBody>
+                                    </Card> 
+                            </CardDeck>
+                    </div>
+                    );
+                }
+            )}
+         </div>
+         );
+        }
+    return <div />;
+}
+
+
 
 function StateInfo(props) {
     if(props.top) {
@@ -36,6 +64,7 @@ function StateInfo(props) {
             </div>
             <div className='row'>
                 <RenderTop top={props.top} />
+                <RenderCounty county={props.county} />
             </div>
         </div>
     );
